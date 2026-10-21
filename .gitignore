@@ -1,0 +1,22 @@
+# Katalogi budowania (CMake / CLion)
+cmake-build-*/
+build/
+out/
+
+# Ustawienia IDE
+.idea/
+.vscode/
+*.iml
+
+# Pliki danych generowane przez program
+*.bin
+
+# Pliki systemowe macOS
+.DS_Store
+
+# Artefakty kompilacji
+*.o
+*.a
+*.dylib
+*.so
+*.exe
