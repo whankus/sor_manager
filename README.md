@@ -24,7 +24,7 @@ Terminalowa aplikacja (TUI) w C++20 do obsługi kolejki pacjentów na Szpitalnym
 
 ## Budowanie i uruchomienie
 
-Wymagany jest kompilator obsługujący C++20 oraz CMake w wersji 3.20 lub nowszej. FTXUI pobiera się automatycznie.
+Wymagany jest kompilator obsługujący C++20 oraz CMake w wersji 3.20 lub nowszej. FTXUI i Google Test pobierają się automatycznie.
 
 ```bash
 git clone https://github.com/TWOJ-LOGIN/sor-manager.git
@@ -32,6 +32,12 @@ cd sor-manager
 cmake -S . -B build
 cmake --build build
 ./build/Projekt1
+```
+
+### Testy
+
+```bash
+./build/Testy
 ```
 
 ## Struktura projektu
